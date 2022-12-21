@@ -1,0 +1,38 @@
+a {
+  text-decoration: none;
+  color: rgb(66, 66, 66);
+}
+a:hover {
+  font-weight: bolder;
+  color: #00a149;
+}
+.card-header {
+  background-color: #02cb5b;
+  color: white;
+}
+.card {
+  border-color: #02cb5b;
+}
+
+/* small{
+    color: rgb(209, 0, 0);
+} */
+.fixed-box {
+  max-height: 80vh;
+  overflow-y: scroll;
+}
+.fa-star {
+  cursor: pointer;
+}
+.fa-star:hover {
+  transform: scale(1.5);
+  animation: 1s ease-in-out linear;
+}
+.fa-star {
+  color: yellow;
+}
+
+.starButton {
+  border: none;
+  background: none;
+}
